@@ -12,5 +12,3 @@ const numeroSecreto = gerarNumeroAleatorio();
 function gerarNumeroAleatorio(){
   return parseInt(Math.random() * maiorValor + 1);
 }
-
-console.log(numeroSecreto)
